@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  background: var(--bg);
+  transition: all 3ms ease;
+  -webkit-transition: all 3ms ease;
+  -moz-transition: all 3ms ease;
+  -ms-transition: all 3ms ease;
+  -o-transition: all 3ms ease;
+  color: var(--black);
+  scroll-behavior: smooth;
+}
