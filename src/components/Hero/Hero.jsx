@@ -21,7 +21,7 @@ const Hero = () => {
       <div className={heroCss.wrapper}>
         <div className={heroCss.blueCircle}></div>
         <img src={HeroImg} alt="Hero Image" width={600} />
-        <div className={heroCss.cart}>
+        <div className={heroCss.cart2}>
           <RiShoppingBagFill />
 
           <div className={heroCss.signup}>
@@ -36,17 +36,13 @@ const Hero = () => {
       {/* right side */}
       <div className={heroCss.h_sides}>
         <div className={heroCss.traffic}>
-          <h1>
-            <span>1.5m</span>
-            <span>Monthly Traffic</span>
-          </h1>
+          <span>1.5m</span>
+          <span>Monthly Traffic</span>
         </div>
 
         <div className={heroCss.costumers}>
-          <h1>
-            <span>100k</span>
-            <span>Happy Costumers</span>
-          </h1>
+          <span>100k</span>
+          <span>Happy Costumers</span>
         </div>
       </div>
     </section>
