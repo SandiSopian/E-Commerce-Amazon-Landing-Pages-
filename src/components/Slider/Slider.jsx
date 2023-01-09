@@ -19,7 +19,6 @@ const Slider = () => {
                 <span>{slide.name}</span>
                 <span>{slide.detail}</span>
               </p>
-
               <span>{slide.price}$</span>
               <div>Shop now</div>
             </div>
