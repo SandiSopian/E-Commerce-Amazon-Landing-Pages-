@@ -24,7 +24,23 @@ const Testimonials = () => {
       <div className={testiCss.reviews}>Reviews</div>
 
       <div className={testiCss.carousel}>
-        <Swiper slidesPerView={3} slidesPerGroup={1} spaceBetween={20} className={testiCss.tcarousel}>
+        <Swiper
+          slidesPerView={3}
+          slidesPerGroup={1}
+          spaceBetween={20}
+          className={testiCss.tcarousel}
+          breakpoints={{
+            856: {
+              slidesPerView: 3,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+            0: {
+              slidesPerView: 1,
+            },
+          }}
+        >
           {TestimonialsData.map((testimonial, i) => (
             <SwiperSlide>
               <div className={testiCss.testimonial}>

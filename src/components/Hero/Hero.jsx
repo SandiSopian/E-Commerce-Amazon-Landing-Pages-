@@ -14,8 +14,8 @@ const Hero = () => {
         <h1 className={heroCss.text1}>Skin Protection Cream</h1>
 
         <div className={heroCss.text2}>
-          <h1>Trendy Collection</h1>
-          <p>Seedily say has suitbale disposal and boy. Exercise joy man child rejoiced.</p>
+          <span>Trendy Collection</span>
+          <span>Seedily say has suitbale disposal and boy. Exercise joy man child rejoiced.</span>
         </div>
       </div>
 
